@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* shared style  */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -57,15 +56,12 @@
 .container {
   width: 71%;
   max-width: 1140px;
-  /* border: 1px solid red; */
-  margin: 0px auto;
+  margin: 0 auto;
 }
-
-/* main style  */
 
 header {
   background-color: #FFF8F3;
-  background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+  background: url("images/developer.png"), url("images/header_bg.png"), #FFF8F3;
   background-position: 23px 38px, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -93,7 +89,6 @@ nav .menu a {
 }
 
 #banner {
-  /* border: 1px solid red; */
   margin: 47px 38px 0 230px;
   display: flex;
   justify-content: space-between;
@@ -172,7 +167,6 @@ nav .menu a {
 
 .skill-box .skill-card {
   padding: 30px;
-  /* border: 1px solid red; */
   box-shadow: 0 6px 50px 0 #00000011;
   max-width: 267px;
 }
